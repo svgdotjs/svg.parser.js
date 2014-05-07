@@ -10,7 +10,7 @@
       
       /* gather attributes */
       for (i = attrs.length - 1; i >= 0; i--)
-        attr[attrs[i].nodeName] = attrs[i].nodeValue
+        attr[attrs[i].nodeName] = attrs[i].value
 
       /* ensure stroke width where needed */
       if (typeof attr.stroke != 'undefined' && typeof attr['stroke-width'] == 'undefined')
